@@ -15,7 +15,7 @@ using Telegram.Bot.Types.ReplyMarkups;
 var httpClient = new HttpClient(new HttpClientHandler { Proxy = proxy, UseProxy = true });
 var botClient = new TelegramBotClient("5194650604:AAEtzHRNw3fHzbTWksa5OkRSbaQjjZJZSTI", httpClient);*/
 
-var botClient = new TelegramBotClient("TOKEN");
+var botClient = new TelegramBotClient("7507411942:AAHRtwKFTdt54DxT30fUQur2iHcKZiWY_H0");
 
 //block 
 int blockLevel = 0;
@@ -72,7 +72,7 @@ botClient.StartReceiving(
 var me = await botClient.GetMeAsync();
 
 //write on console a hello message by bot 
-Console.WriteLine($"\nHello! I'm {me.Username} and i'm your Bot!");
+Console.WriteLine($"\nHello! I'm {asmo} and i'm your Bot!");
 
 // Send cancellation request to stop bot and close console
 Console.ReadKey();
