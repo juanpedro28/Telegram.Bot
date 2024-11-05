@@ -72,7 +72,7 @@ botClient.StartReceiving(
 var me = await botClient.GetMeAsync();
 
 //write on console a hello message by bot 
-Console.WriteLine($"\nHello! I'm {asmo} and i'm your Bot!");
+Console.WriteLine($"\nHello! I'm {me.asmo} and i'm your Bot!");
 
 // Send cancellation request to stop bot and close console
 Console.ReadKey();
